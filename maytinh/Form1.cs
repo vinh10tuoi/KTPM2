@@ -24,5 +24,13 @@ namespace maytinh
 
             textBox3.Text = (a + b).ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double a = int.Parse(textBox1.Text);
+            double b = int.Parse(textBox2.Text);
+
+            textBox3.Text = (a - b).ToString();
+        }
     }
 }
